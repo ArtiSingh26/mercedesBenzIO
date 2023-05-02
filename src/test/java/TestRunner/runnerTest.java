@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features={"src/test/resources/Features/mbIO.feature"},
         glue = {"StepDefs","hookFiles"},
-        plugin = {"pretty"}
+        plugin = {"pretty", "html:target/cucumber-reports"}
 )
-public class testRunner{
+public class runnerTest {
 }
