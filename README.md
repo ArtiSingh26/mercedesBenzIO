@@ -4,7 +4,7 @@ This project is an umbrella which contains the UI Automation test for covering t
  
 ## Pre-Requisites
 
-Before running the project, you need to download Apache Maven (if its already not there on the machine) from the official website https://maven.apache.org/download.cgi (Binary zip archive) and the path to the system environment variables. 
+Before running the project, you need to download the Apache Maven tool(if its already not there on the machine) from the official website https://maven.apache.org/download.cgi (download Binary zip archive) and set its path in the system environment variables. 
 
 To verify if maven is installed correctly, open the terminal and run the command:
 
@@ -12,6 +12,7 @@ To verify if maven is installed correctly, open the terminal and run the command
 mvn --version
 ```
 This command will show the version of maven if placed correctly.
+
 Since, the project is using Java language JDK should be installed in the machine and the PATH should be set in system environment variables. (Please follow this link if required in setting up the path https://bobbyhadz.com/blog/mvn-is-not-recognized-as-internal-or-external-command)
 
 ## Running the Test
@@ -25,7 +26,7 @@ mvn clean verify
 This command will run the all the feature files. 
 ## Reports
 
-Once the test run is done, the reports can be found under "target" folder inside the project with name "Cucumber-reports" which can be opened in any browser to see the latest run report.
+Once the test run is done, the reports can be found under "target" folder inside the project with name "Cucumber-reports" which can be opened in any browser to see the results of the latest run.
 
 ## Screenshot
 
