@@ -16,10 +16,11 @@ Since, the project is using Java language JDK should be installed in the machine
 
 ## Running the Test
 
-To run all the test, clone the repository -> open the terminal -> navigate to the project directory and type the following command:
+To run all the test, clone the repository -> open the terminal -> navigate to the project directory and type any of the following command:
 
 ```python
 mvn test
+mvn clean verify
 ```
 This command will run the all the feature files. 
 ## Reports
