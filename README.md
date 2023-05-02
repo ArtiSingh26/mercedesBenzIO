@@ -14,6 +14,7 @@ mvn --version
 This command will show the version of maven if placed correctly.
 
 Since, the project is using Java language JDK should be installed in the machine and the PATH should be set in system environment variables. (Please follow this link if required in setting up the path https://bobbyhadz.com/blog/mvn-is-not-recognized-as-internal-or-external-command)
+If you are using MAC machine then follow this link for installation https://mkyong.com/maven/install-maven-on-mac-osx/
 
 ## Running the Test
 
