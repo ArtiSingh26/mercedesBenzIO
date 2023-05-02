@@ -26,4 +26,8 @@ This command will run the all the feature files.
 
 Once the test run is done, the reports can be found under "target" folder inside the project with name "Cucumber-reports" which can be opened in any browser to see the latest run report.
 
+## Screenshot
+
+The saved screenshot of the page can be accessed from the snapshots folder present inside the project. 
+
 ![image](https://user-images.githubusercontent.com/85970617/235573345-d110dc7b-0dc5-487b-b1c4-973982c95063.png)
